@@ -67,11 +67,11 @@ struct ContentView: View {
                                 .cornerRadius(30)
                             }
                             Button(action: {
-                            if self.middleTyping{ self.display =  self.display + "4"
+                            if self.middleTyping{ self.display =  self.display + "7"
                                 self.result = Double(self.display)!
                                 self.ButtonOFF = true
                             }else{
-                                self.display = "4"
+                                self.display = "7"
                                 self.result = Double(self.display)!
                                 self.middleTyping = true
                                 self.ButtonOFF = true
